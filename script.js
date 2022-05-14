@@ -44,6 +44,7 @@ document.querySelector('.check').addEventListener('click', function () {
     document.querySelector('.score').textContent = score;
   }
 });
+//Play again
 document.querySelector('.again').addEventListener('click', function () {
   score = 5;
   x = Math.trunc(Math.random() * 30 + 1);
