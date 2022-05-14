@@ -47,6 +47,7 @@ document.querySelector('.check').addEventListener('click', function () {
 
 //Play again
 document.querySelector('.again').addEventListener('click', function () {
+  document.querySelector('.number').style.width = '15rem';
   document.querySelector('.guess').value = ' ';
   score = 5;
   x = Math.trunc(Math.random() * 30 + 1);
